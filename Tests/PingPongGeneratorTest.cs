@@ -1,13 +1,13 @@
 using Xunit;
-namespace PingPong
+namespace PingPongGen
 {
   public class PingPongTest
   {
     [Fact]
-    public void IsPingPong_ForNumberDivisibleBy3_true()
+    public void IsLeapYear_ForNumberDivisibleByFour_true()
     {
-      PingPong testPingPong = new PingPong();
-      Assert.Equal(true, testPingPong.PingPongMethod(3));
+      LeapYear testLeapYear = new LeapYear();
+      Assert.Equal(true, testLeapYear.IsLeapYear(2012));
     }
-  }
+}
 }

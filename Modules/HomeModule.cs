@@ -1,8 +1,8 @@
 using Nancy;
 using System.Collections.Generic;
-using PingPong.Objects;
+using PingPongGen;
 
-namespace PingPong
+namespace PingPongGen
 {
   public class HomeModule : NancyModule
   {
